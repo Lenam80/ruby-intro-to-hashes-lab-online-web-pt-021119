@@ -1,5 +1,7 @@
 def new_hash
+	it "creates an empty hash and returns it" do
 
+		expect(new_hash).to eq({})
 end
 
 def actor
